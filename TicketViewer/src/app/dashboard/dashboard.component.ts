@@ -15,6 +15,8 @@ export class DashboardComponent implements OnInit {
       console.log(x,'hhh')
 
     });
+    console.log('hhh')
+
   }
 
 }

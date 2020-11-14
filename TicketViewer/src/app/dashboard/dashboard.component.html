@@ -1,10 +1,11 @@
 
-<p>dashboard works!</p>
-<!-- {{this.TicketDetails[this.TicketTilte[j]]}} -->
-<!-- <table>
-    <tr>
-      <th>Ticket Id </th>
-    <tr *ngFor="let id of id">
-      <td>{{id}}</td>
-    </tr>
-  </table> -->
+<p style="color: blue;">Welcome to the Ticket viewer dasboard<br> </p>
+<div class="popup" (click)="ReadMe()">Readme!
+  <span class="popuptext" id="myPopup">Here are the instructions to attend a ticket..<br><br>1.Scroll down and click on List of tickets to view generated tickets<br><br>2. Click on Detailed view for full description <br><br>3.<br>4.<br></span>
+</div>
+<img src="assets/img/dashboard_img.jpg" alt="dasboard img" style="width:100%">
+
+  <button type="submit" class="btn" (click)="ViewTickets()">List of tickets</button>
+  <button type="submit" class="btn" (click)="ViewDetails()">Detailed view</button>
+
+
